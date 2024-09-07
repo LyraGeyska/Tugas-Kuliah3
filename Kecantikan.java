@@ -12,7 +12,8 @@ package TugasKetiga;
 public abstract class Kecantikan {
     
     abstract void perawatanDiri();
-    abstract void trenMasaKini();
+    
+    abstract void funFact();
     
     public void fungsiPerawatan(){
         System.out.println("Kesempurnaan bisa dimulai dengan merawat diri sendiri");

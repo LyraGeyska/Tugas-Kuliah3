@@ -15,12 +15,12 @@ public class Perawatan extends Kecantikan {
     private String merk;
 
     @Override
-    void perawatanDiri() {
-        System.out.println("");
+    public void funFact() {
+        System.out.println("Wudhu juga termasuk perawatan loh :)");
     }
 
     @Override
-    void trenMasaKini() {
+    void perawatanDiri() {
         System.out.println("");
     }
 

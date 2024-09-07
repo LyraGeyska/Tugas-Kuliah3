@@ -9,18 +9,18 @@ package TugasKetiga;
  *
  * @author HP
  */
-public class Skincare extends Perawatan implements Moisturizer, Serum{
+public class Skincare extends Perawatan implements Moisturizer, Serum {
+
     private String tekstur;
     private String warna;
-    
-    public Skincare(){
+
+    public Skincare() {
         super.fungsiPerawatan();
         System.out.println("Aku hadir untuk membantu permasalahan kulit wajahmu");
-        this.setTekstur("kental");
+        this.setTekstur("Creamy");
         this.setWarna("Putih");
         super.setMerk("The Orginote");
         super.setNamaProduk("Moisturizer");
-     
     }
 
     /**
@@ -70,5 +70,5 @@ public class Skincare extends Perawatan implements Moisturizer, Serum{
     public void mencerahkan() {
         System.out.println("Berguna untuk mencerahkan kulit.");
     }
-    
+
 }

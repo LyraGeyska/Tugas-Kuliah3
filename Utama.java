@@ -24,8 +24,10 @@ public class Utama {
         moist.melembabkan();
         System.out.println("Aku merupakan salah satu produk dari " + moist.getMerk());
         System.out.println("Aku memiliki tekstur yang " + moist.getTekstur() + " dan berwarna " + moist.getWarna());
+        moist.funFact();
 
         System.out.println("=======================================================");
+        
         //OVERLOADING CODE
         Bodycare marina = new Bodycare();
         System.out.println("Aku adalah " + marina.getNamaProduk());
@@ -40,5 +42,4 @@ public class Utama {
         System.out.println(marina.bahanAktif(30));
 
     }
-
 }
